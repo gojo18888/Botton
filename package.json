@@ -1,0 +1,14 @@
+{
+  "name": "whatsapp-bot-full-config",
+  "version": "1.0.0",
+  "description": "WhatsApp bot with session support, PM2 and GitHub workflow",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "pm2": "pm2 start index.js --name whatsapp-bot"
+  },
+  "dependencies": {
+    "@adiwajshing/baileys": "^5.0.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
